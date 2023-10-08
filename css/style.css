@@ -1,0 +1,57 @@
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    text-align: center; 
+    /* deixar todo o conteúdo centralizado */
+
+    margin-top: 2em;
+
+    /* para evitar que o container "cole" na parte superior do site */
+}
+
+.quadrado {
+
+    display: inline-block;
+
+    width: 200px;
+
+    height: 200px;
+
+    box-sizing: border-box;
+
+    margin: 0;
+    
+    /* orientações da professora + margin 0 para evitar espaçamentos descenessários */
+}
+
+.ponta{
+    border: 2px solid black;
+    /* classe para identificar quadrados das pontas com bordas */
+}
+
+.red{
+    background-color: rgb(245, 86, 86);
+}
+
+.blue{
+    background-color: rgb(80, 172, 247);
+}
+
+.green{
+    background-color: rgb(66, 189, 66);
+}
+
+.yellow{
+    background-color: rgb(219, 219, 88);
+}
+
+
+/* configurações do footer */
+
+footer{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
